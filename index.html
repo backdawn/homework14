@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="scripts/script.js"></script>
+
+  <title>Home work 14</title>
+</head>
+<body>
+  <!-- <div class="container">
+    <div class="top">
+      <div class="top-container">
+        <div class="search">
+          <input type="text" name="search-text" placeholder="Search" class="search-input">
+        </div>
+        <div class="category">
+          <h3>Category</h3>
+          <div class="categoryName">
+            <button type="button" name="button">All</button>
+            <button type="button" name="button">Food</button>
+            <button type="button" name="button">Drink</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="in-container">
+      <div class="filter">
+        <div class="in-filter">
+          <input class="inputSearch" type="text" placeholder="Search">
+          <h4>Category</h4>
+          <div class="buttons-filter">
+            <button type="button" name="button" class="btn btn-success">All</button>
+            <button type="button" name="button" class="btn btn-success">Food</button>
+            <button type="button" name="button" class="btn btn-success">Drink</button>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <button type="button" name="button" class="navigation">Left</button>
+        <button type="button" name="button" class="navigation">Right</button>
+      </div>
+
+      <div class="posts">
+        <div class="in-post">
+          <div class="user-information">
+            <div class="photo-user">
+              <img src="https://s3-alpha-sig.figma.com/img/107f/5287/e86e14365cff904eed8a8f6525d2c452?Expires=1617580800&Signature=N-GTzbURY5ez231uwxX2vLLMBiAxrpyS0AwB3UwM7hsoQ6rsMiXFK-~fi1Vecl8KZPAb1si2ebIfDGpZsJYfeoxH49ZhGWeQHfQIxeqXZcMpga6hyC-PlTwXpO5hZ6zCnNk35~r6xFJ-3wR5kJcHzYZ6OQUlW4cxwra1jcy02xj6b9Q92ZQPw~CBTVOr12tsiO4Ns9cY0PjHt0XAEVr~GsaDdAu21vbDN2sW7JY0PNJv7OlpEpz5y8QbFZFGs5~yKB8tfaThZuwQ68SAPwIF8U~FzEIt64Ugo~fMaAu7usQJGI4Bo2puZ6mieyByh5uhQvkr8hKNR-25tI5pyEfr4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="img-user">
+            </div>
+            <div class="name-user">
+              <span class="name-user-text">Calum Lewis</span>
+            </div>
+          </div>
+          <div class="photo-post">
+            <img src="https://s3-alpha-sig.figma.com/img/a0c3/3156/ffad7a2f2a448855c36abf1f367028e5?Expires=1617580800&Signature=bI~~InH5TshJV5lizAPKHASMgR3lXOMdBMBV1GEm3qbl2QrM9GcOnZH0b7YGQqkEdiKVT7CMz06~3OjIJ4eYMJQnzHptbC~xf4s4Tyy0OpJJ9W4yMKNS6lMykIRq2grQudr61d1z8PZoIBnEqeL3XNp6WJnnFhaIvAXPxsg54CF5oI4rO5AcLqdPHsXMYCS-Tf5BrUliRLMnXUaR1wpPcV4Yz~SHIn7LJWvKDZU91xuuUozxD4Cyzb7-QPKdsn~uXMESxpd3s55fZ6vMWuDRBx2oMtSJWeRyh8-GGGpHt3I1T6LmiU4tpNDdRWdHnUQnvNc7vA3gYjaNzrNINkroRQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" class="img-photo-post">
+          </div>
+          <div class="name-post">
+            <h3>Pancake</h3>
+          </div>
+          <div class="category-post">
+            <h4>Food &bull; > 60 mins</h4>
+          </div>
+        </div>
+        <div class="in-post">
+          <div class="user-information">
+            <div class="photo-user">
+              <img src="https://s3-alpha-sig.figma.com/img/59c5/af5a/420947edd30baa36d1478d8056544550?Expires=1617580800&Signature=abvb6ytdxTL-X99g1G7mNa3kaI9mEwYOQmPvbNp8J0~hVKhrL8fLc7UDAUt6UdZlLWoNlajYVmZVbTmOw-CoOM~F0A0TxSZ4XIOOT8FySynsTPtSLGqklp5Px0Is3R-Km2ybhZKHjPJQjTKQgjaKpQvS3npEerz7LYVV9rmH~jm2FAHbMDA~NjHajsJ9DnOyiNlCzCZaRlWDh9ut-ljxZUzx2sFvvrLyqKWPsTYueflooOEje5UAquJ1SGh75~Jp~rbzCRh1gNqr~6WxX9xfWACZtilt1Se1-bI7Jk9c26xZ7XgAeztCq4KZv5nuNUC3NH9TLo6rN4m3fPsJIw9ebA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="img-user">
+            </div>
+            <div class="name-user">
+              <span class="name-user-text">Elif Sonas</span>
+            </div>
+          </div>
+          <div class="photo-post">
+            <img src="https://s3-alpha-sig.figma.com/img/087d/2c0d/5ed4e76464f7e7393c03a6c43ead5e82?Expires=1617580800&Signature=dKhgmyANF9zSJl603m8tUayXS77rbFGd9ck86KPspTc4lAS4Kknv520MlOhLuBfVwettgYXStj8KMhfHiD00WimQ~bWggTz4h250S25nNkZ2uuHqOC87DQ4~0g9aXxy0Cv75RHsoNqNcBryT87Q29s1DILQElP84kNn~-X9sNN3k57OXzgygsZlVNLzn8zPfRu7zGQnXFHZgDCCUKN2DT8ziF4ABfc9QrwV8--yM99yWx-wqssebcxPzDLFFmodND7OYmjx8XpPm2UbypJM7x0tAbWdMrAJXROePCzGngtXYZss2Gp2Z72by8iG4XvbCuqMIGNqMQ6eKAJw6vFwa5Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" class="img-photo-post">
+          </div>
+          <div class="name-post">
+            <h3>Salad</h3>
+          </div>
+          <div class="category-post">
+            <h4>Food &bull; > 60 mins</h4>
+          </div>
+        </div>
+        <div class="in-post">
+          <div class="user-information">
+            <div class="photo-user">
+              <img src="https://s3-alpha-sig.figma.com/img/c4ff/ddcb/a7672b3682faba963ee3336b868dbbda?Expires=1617580800&Signature=R~dt69tR6kNY8ZJ58osdB1xPxBInYkpcpgRNUMlPX7fUCJyknPRHfubdInGSZIOwdASICgzw00yEwFdCz9vruTnpAoRDoTgpZtnMzoz93lsvmWy1uTFvl5bIjEjHD1-MGRbFXrHzM50nTvhb~3KY2694U~wb~fzjtjkxXTXAW~~PlzIAerNVlhiUw36QojPXD3boH-89E-~WvC5Co1t3QC~peqk42ij3Skm9pcL1vNbNqyaMYCjhVXP2obt8OEb1q8JJm1PFnAOoIvgT5v21lLTMbaUMkWVz6TQ2SfAa6TXvkCR73zdSrJDK0DlGs-IWzTO~Hh1n6zNUX433FyRZ6A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="img-user">
+            </div>
+            <div class="name-user">
+              <span class="name-user-text">Elena Shelby</span>
+            </div>
+          </div>
+          <div class="photo-post">
+            <img src="https://s3-alpha-sig.figma.com/img/99ae/ca7a/0ad545ec309556b5e8c03587123e8db7?Expires=1617580800&Signature=SNiosYIrU040~b29TbehnaSy2D28~~0AO5WUQ~pdDFgEsTxNwRFrxhx2H0kEUkdoAf5asVlY8WFtzBmP9sE4rakKhGCA7R9ECsD9N~bpnzUZflXgSdZhY~Dfk04Ufj11q85TiBZto7sUMvPM29nKFsMYATPGwsNNRE5Zs5olLtiaoycNMfkaC5xsIYUT8JQKn5qQQyxPzDgb4UG6GP4GsN9~FX8xR~Psto7oUZ3Ms3PPophqbuB64GwF3pqcrBY~kGKT5TOTWHIPMkNn-d3p-GESyBuQfF3QUGLuHBv35O6ecYGgf1p-2ltU8XXAhSLqIgTeALrGMxwBD56suq88qA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" class="img-photo-post">
+          </div>
+          <div class="name-post">
+            <h3>Pie</h3>
+          </div>
+          <div class="category-post">
+            <h4>Food &bull; > 60 mins</h4>
+          </div>
+        </div>
+        <div class="in-post">
+          <div class="user-information">
+            <div class="photo-user">
+              <img src="https://s3-alpha-sig.figma.com/img/68ed/fd8f/996efc95b29e6188126e22ac66b0430a?Expires=1617580800&Signature=boD6sKRn75BWqGUdt4WjH6FGbF-J1g6f~FcjCe5TppdXshCnG27bCaRJDTz7BXfEVuqG~5DUqiswAZtvPdoiHKHJv~qzkMjtGD-kl2USnIuAC9oRNfcf1hg1DDQam8JMILKgbGrtMA6GAF8QN5KzhEdVygOhzu5qNNOjH1dzFjj7DitGW3d5HpV1yT1pzU8SMHPIHs~49VD0IV~g3SsYP6v68ZFc66CuJpNbyis3-VaQzL0oIoxNrtJye9ancS3pbfBLdDwAQqsYbaw9qjsVj855pWEHnxntQcMjKgBQd2ZcsxhcYQ1IH1Sx9G3FOa~BfyvlEgB2hZm70q3yLn6CGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="img-user">
+            </div>
+            <div class="name-user">
+              <span class="name-user-text">John Priyadi</span>
+            </div>
+          </div>
+          <div class="photo-post">
+            <img src="https://s3-alpha-sig.figma.com/img/8d27/7598/a3ba9bf7e9a72bcbf27bd81c87be7d97?Expires=1617580800&Signature=KfRz40Ebg49AUZlfVo9XaLjw5UredF-uoE3YaLk4fXvRs5Em7n41LjK77WpR8ockUgUotYsEi7PtTm9MedZYIAd4lGMewZcysYS~Q2lEisoAYyxyCXOD8ggwRQQuFwYZX4OzwLd0P-9SIQicLjeslzhGhzQqXaOLD9MHm0wk52X9IdnUUXaqCW~b19O7GfpkDVZBE6LXSxj~q9jyT1J27oIpwN46uERG8XB1tkqkUaO9S9EMPvMbDwsJy5Ymew44JjWLADE2iTHxx911Z~-IgWSADnxRtOMyspPVrcQcb3TUXD2wjUTRu6J2xbV3vTJ-x24a9d0mLhU~4QHpOZXWGw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="" class="img-photo-post">
+          </div>
+          <div class="name-post">
+            <h3>Fruit</h3>
+          </div>
+          <div class="category-post">
+            <h4>Food &bull; > 60 mins</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="home-block">
+        <button type="button" name="button" onclick="iconHomeStyle()">
+          <img src="img/home-active.png" alt="" id="homeImg">
+          <p>Home</p>
+        </button>
+      </div>
+      <div class="upload-block">
+        <button type="button" name="button" onclick="iconUploadStyle()">
+          <img src="img/upload.png" alt="" id="uploadImg">
+          <p>Upload</p>
+        </button>
+      </div>
+      <div class="scan-block">
+        <button type="button" name="button">
+          <img src="img/scan.png" alt="">
+          <p>Scan</p>
+        </button>
+      </div>
+      <div class="notification-block">
+        <button type="button" name="button">
+          <img src="img/notification.png" alt="">
+          <p>Notification</p>
+        </button>
+      </div>
+      <div class="profile-block">
+        <button type="button" name="button">
+          <img src="img/profile.png" alt="">
+          <p>Profile</p>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+.container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-flow: column;
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+.in-container{
+  display: flex;
+  /* justify-content: center; */
+  flex-flow: column;
+  width: 80%;
+  /* border: 1px solid grey; */
+}
+.filter{
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  /* border: 1px solid green; */
+}
+.in-filter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.inputSearch{
+  background: url(https://www.flaticon.com/svg/vstatic/svg/622/622669.svg?token=exp=1616598624~hmac=ac2bfb3b82ed4c0131b33c79db81888e) no-repeat center left 10px;
+  background-size: 20px;
+  border-radius: 32px;
+  outline: none;
+  background-color: #F4F5F7;
+  border: none;
+  padding: 10px 0px 10px 32px;
+}
+.in-filter h4{
+  color: #3E5481;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  margin: 10px 0 15px 0;
+}
+.btn{
+  border-radius: 32px;
+  background: #1FCC79;
+  border: 1px solid #1FCC79;
+  padding: 10px 24px;
+  margin-right: 20px;
+}
+.btn:hover{
+  background: #16aa63;
+  border: 1px solid #16aa63;
+}
+.nav{
+  width: 100%;
+  margin-top: 20px;
+}
+.navigation{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #9FA5C0;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  border-top: 10px solid rgb(215, 215, 215);
+  border-bottom: 2px solid grey;
+  width: 50%;
+}
+.navigation:focus{
+  color: #3E5481;
+  border-bottom: 5px solid #16aa63;
+  outline: none;
+}
+.posts{
+  width: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  margin-top: 20px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.in-post{
+  /* border: 1px solid red; */
+  width: 151px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.user-information{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.photo-user{
+  /* width: 20%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-user{
+  width: 31px;
+  height: 31px;
+  border-radius: 11px;
+}
+.name-user{
+  width: 80%;
+  padding: 0 0 0 6px;
+  display: flex;
+  align-items: center;
+}
+.name-user-text{
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #2E3E5C;
+}
+.img-photo-post{
+  margin-top: 10px;
+  width: 151px;
+  height: 151px;
+  border-radius: 16px;
+}
+.name-post{
+  width: 100%;
+}
+.name-post h3{
+  padding: 5px 0px 2px 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #3E5481;
+}
+.category-post{
+  width: 100%;
+}
+.category-post h4{
+  color: #9FA5C0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-top: 1px solid rgb(170, 172, 170);
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.footer button{
+  padding: 0;
+  width: auto;
+  height: 50px;
+  background-color: rgba(117, 190, 218, 0.0);
+  border: none;
+  outline: none;
+  /* border: 1px solid red; */
+}
+.footer p{
+  Font family: Inter;
+  font-style: Medium;
+  font-size: 12px;
+  color: #9FA5C0;
+  letter-spacing: 0.7px;
+  padding: 3px;
+}
+.scan-block{
+  position: relative;
+  bottom: 30px;
+}
+.scan-block button img{
+  padding: 15px;
+  border-radius: 100px;
+  background-color: #16aa63;
+}
+.home-block p{
+  color: #16aa63;
+}
+
+
+
+@media screen and (max-width: 430px) {
+  .container{
+    padding: 0;
+  }
+  .in-container{
+    width: 100%;
+  }
+  .btn{
+    padding: 5px 15px;
+    margin: 0;
+  }
+  .name-user{
+    display: flex;
+    justify-content: center;
+   }
+}
+@media screen and (max-width: 409px) {
+  .in-post{
+    margin-top: 20px;
+  }
+  .in-post:first-child{
+    margin-top: 0;
+  }
+  .in-post:nth-child(2){
+    margin-top: 0;
+  }
+}
+@media screen and (width: 768px) {
+  .container{
+    padding: 0;
+  }
+  .in-container{
+    width: 100%;
+  }
+}
